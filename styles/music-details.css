@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "googlefont-Bold";
+    src: url("../fonts/googleFonts/Roboto/Roboto-Bold.ttf");
+
+
+  }
+
+
+  @font-face {
+
+
+    font-family: "googleMontserrat-Light";
+    src: url("../fonts/googleFonts/moserat/Montserrat-Light.ttf");
+  }
+
+
+
+.music-container-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+flex-direction: column;
+}
+
+
+.music-container-details img{
+ width: 600px;
+ height: 400px;
+ background-size: contain;
+ background-position: top;
+ object-fit: fill;
+ border-radius:10px 10px 0 0;
+ 
+}
+
+.song-info{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    background: white;
+    width: 600px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 15px;
+    /* padding-bottom: 15px; */
+    padding: 30px;
+}
+
+.song-info h1{
+    font-size: 15px;
+    padding: 0 0 0 1px;
+    margin: 0 0 0 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'googlefont-Bold';
+    color: rgb(19, 23, 41);
+}
+.song-info h2{
+    font-size: 13px;
+    padding: 4px 0 0 1px;
+    margin: 0 0 5 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(43, 47, 70, 0.753);
+    font-family: 'googlefont-Bold';
+}
+
+.song-info  p{
+    font-size: 12px;
+    color: grey;
+    line-height: 2;
+    font-family: "googleMontserrat-Light";
+}
+.song-info audio{
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    padding: 5px;
+   
+}
+
+.song-info a {
+    color: white;
+}
+.song-info  button{
+    font-size: 15px;
+    padding: 15px;
+    margin: 30px 0 0 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+  background-color: #54597B;
+  color: white;
+  border-radius: 10px;
+  font-family: 'googlefont-Bold';
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.534));
+  transition: all 88888ms ease-in;
+}
+
+
+.song-info  button:hover{
+     filter: drop-shadow(2px 3px 1px rgba(0, 0, 0, 0.534));
+}
+
+
+
+
+@media (max-width:715px){
+    .music-container-details img{
+        height:302px ;
+        width: 70vw;
+    }
+
+    .song-info{
+        width: 70vw; 
+    }
+
+    
+.song-info  button{
+
+    margin: 15px 0 0 2px;
+  
+}
+.song-info  p{
+    font-size: 12px;
+    color: grey;
+    line-height: 2;
+    font-family: "googleMontserrat-Light";
+    margin: 2px;
+}
+}
+
+
+
+
+@media (max-width:375px){
+    .music-container-details img{
+        height:302px ;
+    }
+
+    .song-info audio{
+    max-width: 60vw;
+    margin: 10px;
+    }
+    
+}

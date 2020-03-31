@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "googlefont-Bold";
+    src: url("../fonts/googleFonts/Roboto/Roboto-Bold.ttf");
+
+
+  }
+
+
+  @font-face {
+
+
+    font-family: "googleMontserrat-Light";
+    src: url("../fonts/googleFonts/moserat/Montserrat-Light.ttf");
+  }
+
+.hero-img-ope{
+    background-image: url(../images/tracklist.jpeg);
+    /* width: 414px; */
+    height: 404px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    background-size: cover;
+    object-fit: cover;
+    /* padding: 10px; */
+    /* margin: 90px; */
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.music-list-container{
+    width: 90vw;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px;
+margin: 10px;
+}
+
+
+.music-list-container h1{
+    width: 155px;
+height: 21px;
+left: 128px;
+top: 385px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 21px;
+color: #585555;
+font-family: "googlefont-Bold";
+}
+
+.music-list-container p{
+    padding: 0;
+    margin: 0;
+width: 155px;
+height: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+color: #FE5201;
+font-family: "googlefont-Bold";
+}
+
+
+
+
+.music-list-container .time-stamp{
+    margin-left: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    font-family: "googlefont-Bold";
+    color: #585555;
+    }
+
+    .music-header{
+        width: 90vw;
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 5px;
+       margin-left: 15px;
+       padding-top: 38px;
+       font-family: "googlefont-Bold";
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+padding-left: 16px;
+    }
+
+    .music-image-icon{
+color: grey;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        padding: 15px;
+     
+        margin-left: 10px;
+        margin-right: 20px;
+    }

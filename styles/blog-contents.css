@@ -1,0 +1,97 @@
+.contents{
+    display: flex;
+flex-direction: column;
+margin-top: 0;
+padding-top: 0;
+justify-content: center;
+align-items: center;
+margin: auto;
+
+}
+
+.contents-1{  
+width: 93vw;
+height: 204px;
+background: #131517;
+border-radius: 6px;
+margin: 10px 0 10px 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+filter: drop-shadow(6px 7px 4px grey);
+}
+
+
+.contents-2{ 
+    width: 93vw;
+    height: 204px;
+    background: #131517;
+    border-radius: 6px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(6px 7px 4px grey);
+}
+
+.contents-3{
+    width: 93vw;
+    height: 204px;
+    background: #131517;
+    border-radius: 6px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(6px 7px 4px grey);
+}
+
+.inner-content-1{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 5px 15px;
+    text-align: start;
+}
+
+.inner-content-1 h1{
+font-family: Roboto;
+font-size: 30px;
+line-height: 35px;
+color: white;
+margin-top: 18px;
+}
+
+.inner-content-1 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #FE5201;
+}
+
+
+
+.inner-content-2a{
+    background-image: url(../images/image-of-opeyemi-emmanuel.png);
+    width: 144px;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.inner-content-2b{
+    background-image: url(../images/image-of-opeyemi-emmanuel2.png);
+    width: 144px;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.inner-content-2c{
+    background-image: url(../images/image-of-opeyemi-emmanuel3.png);
+    width: 144px;
+    height: 100%;
+    background-repeat: no-repeat;
+}

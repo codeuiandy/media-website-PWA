@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "googlefont-Bold";
+    src: url("../fonts/googleFonts/Roboto/Roboto-Bold.ttf");
+
+
+  }
+
+
+  @font-face {
+
+
+    font-family: "googleMontserrat-Light";
+    src: url("../fonts/googleFonts/moserat/Montserrat-Light.ttf");
+  }
+
+.video-container-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center;
+    width: 600px!important;
+flex-direction: column;
+height: 200px; */
+
+}
+
+.about-video{
+    padding: 23px;
+    background-color: white;
+  border: 1px solid rgba(53, 52, 52, 0.527);
+  border-radius:0 0 10px 10px;
+  filter: drop-shadow(1px 1px 3px grey);
+}
+
+.video-container-details .video-wrap{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    width: 600px!important;
+}
+
+.video-container-details  video{
+    border-radius: 10px;
+  
+}
+
+.my-video-dimensions{
+    width: 600px!important;
+ 
+  
+}
+
+.video-container-details .video-wrap h1{
+    font-size: 15px;
+    padding: 0 7px 0 15px; 
+    margin-bottom: 0;
+    font-family: "googlefont-Bold";
+    color: rgb(19, 23, 41);
+}
+
+.video-container-details .video-wrap h2{
+    font-size: 13px;
+    padding: 9px 7px 11px 15px; 
+    max-width: 100%;
+    color: rgb(43, 47, 70);
+    margin-top: 5px;
+    margin-bottom: 9px;
+    font-family: "googleMontserrat-Light";
+    /* text-align: center; */
+}
+
+.video-container-details .video-wrap .btntut{
+    font-size: 13px;
+    padding: 15px 20px 15px 20px; 
+    max-width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+  background-color: #202230;
+  color: white;
+  border-radius: 10px;
+  font-family: 'googlefont-Bold';
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.534));
+  transition: all 2ms ease-in;
+}
+
+
+.video-container-details .video-wrap .btntut:hover{
+     filter: drop-shadow(2px 3px 1px rgba(0, 0, 0, 0.534));
+}
+
+.video-js{
+    height: 250px !important;
+}
+
+
+.vjs-poster {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: right;
+    background-size:cover!important;
+    object-fit: cover!important;
+    background-color: #000000;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+ 
+}
+
+@media (max-width:631px){
+    .my-video-dimensions{
+        width: 90vw!important;
+    height: 180px;
+    }
+
+    .video-container-details .video-wrap{
+        background-color: white;
+        border-radius: 0 0 5px 5px;
+        width: 90vw!important;
+       
+    }
+
+    .video-js .vjs-fullscreen-control {
+        cursor: pointer;
+        flex: none;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+        padding: 2px !important;
+     
+    }
+
+    .video-js .vjs-tech {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .video-js{
+        height: 230px !important;
+    }
+    
+    
+  
+
+
+
+
+
+    .video-container-details .video-wrap .btntut{
+        margin: 3px 0 3px 6px;
+    }
+
+}
+
+.vjs-poster {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-color: #000;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+
+    
+}

@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "googlefont-Bold";
+    src: url("../fonts/googleFonts/Roboto/Roboto-Bold.ttf");
+
+
+  }
+
+
+  @font-face {
+
+
+    font-family: "googleMontserrat-Light";
+    src: url("../fonts/googleFonts/moserat/Montserrat-Light.ttf");
+  }
+
+.hero-img-ope{
+    background-image: url(../images/donate.png);
+    /* width: 414px; */
+    height: 354px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    background-size: cover;
+    object-fit: contain;
+    filter: drop-shadow(1px 1px 1px rgba(128, 128, 128, 0.425));
+    border-radius: 0px 50px 50px 50px;
+    /* padding: 10px; */
+    /* margin: 90px; */
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.donate-container{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 5px; */
+    margin: 20px;
+
+}
+
+
+    .donate-container a button{
+        padding: 20px;
+width: 100%;
+border-radius: 6px;
+font-family: "googlefont-Bold";
+font-weight: bold;
+font-size: 18px;
+color: white;
+text-align: center;
+margin-top: 34px;
+background: #131517;
+cursor: pointer;
+backdrop-filter: blur(4px);
+filter: drop-shadow(2px 5px 3px rgba(128, 128, 128, 0.767));
+    }
+
+    .flexc2{
+        display: flex;
+        justify-content: space-between;
+        font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 21px;
+color: #131517;
+
+    }
+
+
+    .flexc1{
+        display: flex;
+        justify-content: space-between;
+        font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+color: #131517;
+margin-top: 10px;
+    }
+
+    .flexc1 p{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #131517;
+        font-family: "googlefont-Bold";
+        margin-bottom: 10px;
+font-family: "googlefont-Bold";
+    }
+
+    .flexc1 span{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        
+        color: #FE5201;
+        
+        font-family: "googlefont-Bold";
+            }
+
+
+            .flexc2 p{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 21px;
+                color: #131517;
+                font-family: "googlefont-Bold";
+                
+                    }
+                
+                    .flexc2 span{
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 16px;
+                        
+                        color: #FE5201;
+                        
+                        font-family: "googlefont-Bold";
+                            }
+
+                            .rrr43r{
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #131517;
+                                font-family: "googlefont-Bold";
+                                margin-bottom: 3px;
+                                
+
+                            }

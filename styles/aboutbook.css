@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "googlefont-Bold";
+    src: url("../fonts/googleFonts/Roboto/Roboto-Bold.ttf");
+
+
+  }
+
+
+  @font-face {
+
+
+    font-family: "googleMontserrat-Light";
+    src: url("../fonts/googleFonts/moserat/Montserrat-Light.ttf");
+  }
+
+.hero-img-ope{
+    background-image: url(../images/book.jpeg);
+    height: 352px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    background-size: cover;
+    object-fit: contain;
+    /* padding: 10px; */
+    /* margin: 90px; */
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.book-container{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 5px; */
+    margin: 20px;
+
+}
+
+.book-container p{
+    width: 343px;
+    color: #323232;
+    font-family: "googlefont-Bold";
+}
+
+.book-container .p2l{
+    width: 343px;
+    color: #323232;
+    font-family: "googlefont-Bold";
+    margin-top: -17px;
+    padding-top: 3px;
+    margin-bottom: 17px;
+}
+
+.span-con{
+
+    display: flex;    margin-top: -9px;
+                            margin-bottom: 15px;
+                            font-family: "googlefont-Bold";
+}
+
+.span-one1::after{
+content: '3 Hours';
+color: #FE5201;
+}
+
+.span-one2::before{
+    content: '89 ';
+    color: #FE5201;
+    }
+    
+
+
+    .book-header{
+        width: 90vw;
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 5px;
+       margin-left: 15px;
+       padding-top: 35px;
+       width: 155px;
+       height: 21px;
+       font-family: "googlefont-Bold";
+       font-style: normal;
+       font-weight: bold;
+       font-size: 18px;
+
+       
+       
+       color:  #131517;;
+    }
+
+    .music-image-icon{
+
+        background: #FFFFFF;
+        border: 1px solid #848484;
+        box-sizing: border-box;
+          border-radius: 10px;
+        padding: 25px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    .book-container button{
+        padding: 20px;
+
+border-radius: 6px;
+font-family: "googlefont-Bold";
+font-weight: bold;
+font-size: 18px;
+color: white;
+text-align: center;
+margin-top: 10px;
+background: #131517;
+
+backdrop-filter: blur(4px);
+filter: drop-shadow(2px 5px 3px rgba(128, 128, 128, 0.767));
+    }

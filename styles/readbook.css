@@ -1,0 +1,10 @@
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1);
+width: 500px;
+justify-content: center;
+display: flex
+;
+align-items: center;
+margin: auto;
+border-radius: 10px;
+filter: drop-shadow(1px 1px 3px rgb(104, 121, 255));
+}
